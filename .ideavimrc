@@ -6,10 +6,6 @@ inoremap <silent> っｊ <ESC>
 " ハイライトサーチ
 set hlsearch
 
-" コロンセミコロン入れ変え
-noremap ; :
-noremap : ;
-
 " 行番号を表示
 set number
 
