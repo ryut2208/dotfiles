@@ -27,3 +27,6 @@ set ignorecase
 
 " ノーマルモードで日本語オフ
 inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
+
+" surroundを使う
+set surround
