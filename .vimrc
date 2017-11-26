@@ -6,9 +6,11 @@ inoremap <silent> っｊ <ESC>
 " ハイライトサーチ
 set hlsearch
 
-" コロンセミコロン入れ変え
-noremap ; :
-noremap : ;
+" 大文字小文字を区別しない
+set ignorecase
+
+" 検索をループしない
+set nowrapscan
 
 " 行番号を表示
 set number
@@ -17,13 +19,20 @@ set number
 set cursorline
 
 " ESC連打でハイライト解除
-nmap <Esc><Esc> :nohlsearch<CR><Esc>
+nmap <silent><ESC><ESC> :nohlsearch<CR><ESC>
 
 " クリップボード共通化
 set clipboard=unnamed,autoselect
 
-" 検索で大文字小文字を区別しない
-set ignorecase
-
 " ノーマルモードで日本語オフ
 inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
+
+" 上下にスクロールの余裕を持たせる
+set scrolloff=10
+
+" 検索したときに中心に来るようにする
+nmap n nzz
+nmap N Nzz
+nmap * * zz
+nmap # #zz
+
