@@ -36,3 +36,10 @@ nmap N Nzz
 nmap * * zz
 nmap # #zz
 
+" vim-plug
+call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-surround'
+Plug 'rhysd/vim-clang-format'
+Plug 'kana/vim-operator-user'
+Plug 'shougo/vimproc.vim', {'build' : 'make'}
+call plug#end()
