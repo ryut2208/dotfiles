@@ -43,3 +43,9 @@ Plug 'rhysd/vim-clang-format'
 Plug 'kana/vim-operator-user'
 Plug 'shougo/vimproc.vim', {'build' : 'make'}
 call plug#end()
+
+" OSごとに動作を変える
+if has("mac")
+noremap ; :
+noremap : ;
+endif
