@@ -44,6 +44,7 @@ Plug 'kana/vim-operator-user'
 Plug 'shougo/vimproc.vim', {'build' : 'make'}
 Plug 'keith/swift.vim'
 Plug 'landaire/deoplete-swift'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 " OSごとに動作を変える
