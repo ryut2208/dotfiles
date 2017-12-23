@@ -42,6 +42,7 @@ Plug 'tpope/vim-surround'
 Plug 'rhysd/vim-clang-format'
 Plug 'kana/vim-operator-user'
 Plug 'shougo/vimproc.vim', {'build' : 'make'}
+Plug 'keith/swift.vim'
 call plug#end()
 
 " OSごとに動作を変える
