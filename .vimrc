@@ -1,3 +1,7 @@
+" ウィンドウサイズ
+set lines=50
+set columns=150
+
 " jjでインサートモードを抜ける
 inoremap <silent> jj <ESC>
 inoremap <silent> っj <ESC>
