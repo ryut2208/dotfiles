@@ -56,6 +56,8 @@ call plug#end()
 
 " OSごとに動作を変える
 if has("mac")
+  set guifont=MyricaM:h15
+  set guifontwide=MyricaM:h15
 noremap ; :
 noremap : ;
 endif
