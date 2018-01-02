@@ -34,6 +34,9 @@ inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
 " 上下にスクロールの余裕を持たせる
 set scrolloff=10
 
+" 外部で編集された時に自動的に読み込むようにする
+set autoread
+
 " 検索したときに中心に来るようにする
 nmap n nzz
 nmap N Nzz
