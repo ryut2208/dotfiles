@@ -1,0 +1,11 @@
+set imdisable
+set hlsearch
+set ignorecase
+set nowrapscan
+
+imap jj <esc>
+
+nmap n nzz
+nmap N Nzz
+nmap * * zz
+nmap # #zz
