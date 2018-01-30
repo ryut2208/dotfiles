@@ -2,6 +2,9 @@
 set lines=50
 set columns=150
 
+" エンコードをUTF-8に
+set fileencoding=utf-8
+
 " jjでインサートモードを抜ける
 inoremap <silent> jj <ESC>
 inoremap <silent> っj <ESC>
