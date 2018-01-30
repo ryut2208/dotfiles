@@ -5,6 +5,8 @@ set hlsearch
 set ignorecase
 " 大文字小文字を区別しない
 set nowrapscan
+" 上下にスクロールの余裕を持たせる
+set scrolloff=10
 
 imap jj <esc>
 
