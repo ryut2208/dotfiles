@@ -33,6 +33,8 @@ set clipboard=unnamed,autoselect
 
 " ノーマルモードで日本語オフ
 inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
+" KaoriYaVimでの日本語オフ
+set imdisable
 
 " 上下にスクロールの余裕を持たせる
 set scrolloff=10
