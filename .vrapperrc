@@ -1,6 +1,9 @@
 set imdisable
+" ハイライトサーチ
 set hlsearch
+" 検索の大文字小文字区別しない
 set ignorecase
+" 大文字小文字を区別しない
 set nowrapscan
 
 imap jj <esc>
