@@ -5,6 +5,10 @@ set columns=150
 " エンコードをUTF-8に
 set fileencoding=utf-8
 
+" 
+set nobackup
+set noundofile
+
 " jjでインサートモードを抜ける
 inoremap <silent> jj <ESC>
 inoremap <silent> っj <ESC>
