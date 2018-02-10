@@ -46,6 +46,9 @@ set scrolloff=10
 " 外部で編集された時に自動的に読み込むようにする
 set autoread
 
+" vi互換をオフにする(カーソルキーでABCDが入力されないように)
+set nocompatible
+
 " 検索したときに中心に来るようにする
 nmap n nzz
 nmap N Nzz
