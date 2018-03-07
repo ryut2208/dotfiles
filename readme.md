@@ -1,4 +1,4 @@
-シンボリックリンクの作り方
+## シンボリックリンクの作り方
 - mac 
 ```
 $ ln -s オリジナルの絶対パス シンボリックリンクを置きたいディレクトリ
@@ -10,3 +10,10 @@ mklink C:\Users\...\.vimrc C:\Users\...\dotfiles\.vimrc
 mklink 作成先 元ファイル
 ```
 Macと逆なので注意
+
+## VSCodeの設定ファイル
+`settings.json`がそのファイル。
+シンボリックリンクを作るディレクトリは
+```
+C:\Users\%USERNAME%\AppData\Roaming\Code\User
+```
