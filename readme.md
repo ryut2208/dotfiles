@@ -14,6 +14,11 @@ Macと逆なので注意
 ## VSCodeの設定ファイル
 `settings.json`がそのファイル。
 シンボリックリンクを作るディレクトリは
+- Windows
 ```
 C:\Users\%USERNAME%\AppData\Roaming\Code\User
+```
+- Mac
+```
+$HOME/Library/Application Support/Code/User/settings.json
 ```
