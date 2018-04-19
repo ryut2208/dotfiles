@@ -8,4 +8,5 @@
     "vim.hlsearch": true,
     "workbench.colorTheme": "Quiet Light",
     "vim.useSystemClipboard": true,
+    "editor.scrollBeyondLastLine": false,
 }
