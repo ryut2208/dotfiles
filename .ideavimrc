@@ -23,3 +23,10 @@ set ignorecase
 
 " surroundを使う
 set surround
+
+" 検索をループしない
+set nowrapscan
+
+" 検索したときに中心に来るようにする
+nmap n nzz
+nmap N Nzz
