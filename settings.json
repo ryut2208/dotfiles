@@ -5,6 +5,16 @@
             "after": ["<Esc>"]
         }
     ],
+    "vim.normalModeKeyBindings":[
+        {
+            "before": ["n"],
+            "after": ["n","z","z"]
+        },
+        {
+            "before": ["N"],
+            "after": ["N","z","z"]
+        },
+    ],
     "vim.hlsearch": true,
     "workbench.colorTheme": "Quiet Light",
     "vim.useSystemClipboard": true,
