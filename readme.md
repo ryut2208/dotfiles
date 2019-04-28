@@ -20,5 +20,5 @@ C:\Users\%USERNAME%\AppData\Roaming\Code\User
 ```
 - Mac
 ```
-$HOME/Library/Application Support/Code/User/settings.json
+$HOME/Library/Application\ Support/Code/User/settings.json
 ```
