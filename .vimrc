@@ -27,10 +27,3 @@ set autoread
 set nocompatible
 " 現在の行を強調表示
 set cursorline
-
-" OSごとに動作を変える
-if has("mac")
-noremap ; :
-noremap : ;
-endif
-
