@@ -16,3 +16,5 @@ alias ls='ls -aG'
 export LSCOLORS=gxfxcxdxbxegedabagacad
 # 現在のディレクトリをfinderで開く
 alias open='open .'
+# CPUを調べる
+alias cpu='sysctl machdep.cpu.brand_string'
