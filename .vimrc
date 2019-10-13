@@ -27,3 +27,5 @@ set autoread
 set nocompatible
 " 現在の行を強調表示
 set cursorline
+" シンタックスハイライトを有効にする
+syntax on
