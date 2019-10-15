@@ -33,3 +33,8 @@ nmap N Nzz
 
 " 上下にスクロールの余裕を持たせる
 set scrolloff=5
+
+" キャメル・スネークケースでも単語移動できるように
+nnoremap w [w
+nnoremap e ]w
+nnoremap b [b
