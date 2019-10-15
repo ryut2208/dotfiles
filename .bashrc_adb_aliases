@@ -1,0 +1,27 @@
+alias adbi='adb install'
+alias adbui='adb uninstall'
+# インストール済みパッケージを表示
+alias adblist='adb shell pm list package'
+# スクショを撮る
+function adbss() {
+    if [ $# -eq 0 ]; then
+        echo "ファイル名を入力"
+        read file
+        adb shell screencap -p /sdcard/$file.png
+        adb pull /sdcard/$file.png
+        adb shell rm /sdcard/$file.png
+    else
+        adb shell screencap -p /sdcard/$1.png
+        adb pull /sdcard/$1.png
+        adb shell rm /sdcard/$1.png
+    fi
+}
+alias adbss=adbss
+#alias adbss='adbss1 && adbss2 && adbss3'
+alias adbss1='adb shell screencap -p /sdcard/screen.png'
+alias adbss2='adb pull /sdcard/screen.png'
+alias adbss3='adb shell rm /sdcard/screen.png'
+# URLスキームを投げる
+alias adb_scheme='adb shell am start -a android.intent.action.VIEW -d'
+# broadcastを投げる
+alias adb_broadcast='adb shell am broadcast -a'
