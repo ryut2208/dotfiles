@@ -1,20 +1,56 @@
-# bashrcの編集
-alias bashrc='vim ~/.bashrc && source ~/.bashrc'
 # vimrcの編集
 alias vimrc='vim ~/.vimrc'
-# bash_profileの編集
-alias bashprofile='vim ~/.bash_profile && source ~/.bash_profile'
-alias bash_profile='vim ~/.bash_profile && source ~/.bash_profile'
-# sourceの短縮
-alias src='source'
-# history
+source $HOME/.bashrc_adb_aliases
+
+# histroy短縮
 alias h='history'
 alias hg='history | grep'
-# lsに色をつける
-alias ls='ls -aG'
-# 色の設定
-export LSCOLORS=gxfxcxdxbxegedabagacad
-# 現在のディレクトリをfinderで開く
+# phpサーバーを起動する
+alias runphp='php -S localhost:8080'
+# asciidocのコンパイル
+alias adoc='asciidoctor -r asciidoctor-pdf -b pdf'
+alias adocPDF='asciidoctor -r asciidoctor-pdf -b pdf'
+alias adocHTML='asciidoctor'
+# lsの拡張
+alias ls='ls -FG'
+alias ll='ls -al'
+# sourceの短縮
+alias src='source'
+# diffを良い感じにする
+alias diff='diff -drBw'
+# bashrcを編集する
+alias bashrc='vim ~/.bashrc && source ~/.bashrc'
+alias bashrc_adb='vim ~/.bashrc_adb_aliases && source ~/.bashrc'
+# gitconfig.aliasを編集する
+alias gitalias='vim ~/.gitconfig.alias'
+# bash_profileを編集する
+alias bash_profile='vim ~/.bash_profile && source ~/.bash_profile'
+alias bashprofile='vim ~/.bash_profile && source ~/.bash_profile'
+# apkの署名を確認する
+alias keystore='keytool -list -printcert -jarfile'
+
+# plantUMLのサイズを変更する
+export PLANTUML_LIMIT_SIZE=8192
+# 現在のディレクトリを開く
 alias open='open .'
 # CPUを調べる
 alias cpu='sysctl machdep.cpu.brand_string'
+
+# PDFの差分を取得する
+function diffpdf() {
+    if [ $# -eq 3 ]; then
+	diff-pdf --output-diff=$1.pdf $2 $3
+    else
+	echo "出力ファイル名, 入力1, 入力2で引数を指定してください"
+    fi
+}
+alias diffpdf=diffpdf
+
+# javaREPLを実行する
+alias javarepl='java -jar ~/javarepl.jar'
+
+# gitのブランチ名とかの補完
+#source ~/Documents/git/contrib/completion/git-completion.bash
+
+# bash起動時にIMEをオフにする
+osascript -e 'tell application "System Events" to key code 102'
