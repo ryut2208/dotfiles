@@ -29,3 +29,13 @@ set nocompatible
 set cursorline
 " シンタックスハイライトを有効にする
 syntax on
+" camelcasemotionを便利にする
+map <silent> w <Plug>CamelCaseMotion_w
+map <silent> b <Plug>CamelCaseMotion_b
+map <silent> e <Plug>CamelCaseMotion_e
+
+" vim-plug
+call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-surround'
+Plug 'vim-scripts/camelcasemotion'
+call plug#end()
