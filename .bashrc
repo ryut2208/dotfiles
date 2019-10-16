@@ -28,6 +28,8 @@ alias bash_profile='vim ~/.bash_profile && source ~/.bash_profile'
 alias bashprofile='vim ~/.bash_profile && source ~/.bash_profile'
 # apkの署名を確認する
 alias keystore='keytool -list -printcert -jarfile'
+# 打ち間違え防止
+alias quit='exit'
 
 # plantUMLのサイズを変更する
 export PLANTUML_LIMIT_SIZE=8192
