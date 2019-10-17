@@ -51,8 +51,8 @@ alias diffpdf=diffpdf
 # javaREPLを実行する
 alias javarepl='java -jar ~/javarepl.jar'
 
-# gitのブランチ名とかの補完
-#source ~/Documents/git/contrib/completion/git-completion.bash
+# gitの補完を使えるようにする
+source ~/git-completion.bash
 
 # bash起動時にIMEをオフにする
 osascript -e 'tell application "System Events" to key code 102'
