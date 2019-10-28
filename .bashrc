@@ -56,3 +56,24 @@ source ~/git-completion.bash
 
 # bash起動時にIMEをオフにする
 osascript -e 'tell application "System Events" to key code 102'
+
+# ImageMagickで画像を生成する
+function mkImage() {
+	if [ $# -eq 0 ]; then
+		echo "サイズを入力"
+		read size
+		echo "背景色を入力"
+		read background
+		echo "文字色を入力"
+		read fill
+		echo "文字サイズを入力"
+		read pointSize
+		echo "表示文字列を入力"
+		read label
+		echo "ファイル名を入力"
+		read fileName
+		echo "magick -size $size -background $background -fill $fill -gravity center -pointsize $pointSize label:"$label" $fileName"
+		magick -size $size -background $background -fill $fill -gravity center -pointsize $pointSize label:"$label" $fileName
+	fi
+}
+alias mkimage=mkImage
