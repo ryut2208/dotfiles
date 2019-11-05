@@ -14,9 +14,23 @@
             "before": ["N"],
             "after": ["N","z","z"]
         },
+        // CamelCaseMotion用の設定
+        {
+            "before": ["w"],
+            "after": ["leader","w"]
+        },
+        {
+            "before": ["e"],
+            "after": ["leader","e"]
+        },
+        {
+            "before": ["b"],
+            "after": ["leader","b"]
+        }
     ],
     "vim.hlsearch": true,
-    "workbench.colorTheme": "Quiet Light",
     "vim.useSystemClipboard": true,
+    "vim.camelCaseMotion.enable": true,
+    "workbench.colorTheme": "Quiet Light",
     "editor.scrollBeyondLastLine": false,
 }
