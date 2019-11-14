@@ -6,14 +6,6 @@
         }
     ],
     "vim.normalModeKeyBindings":[
-        {
-            "before": ["n"],
-            "after": ["n","z","z"]
-        },
-        {
-            "before": ["N"],
-            "after": ["N","z","z"]
-        },
         // CamelCaseMotion用の設定
         {
             "before": ["w"],
