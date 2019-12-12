@@ -30,4 +30,5 @@
     "vim.camelCaseMotion.enable": true,
     "workbench.colorTheme": "Quiet Light",
     "editor.scrollBeyondLastLine": false,
+    "editor.lineNumbers": "relative",
 }
