@@ -18,6 +18,11 @@
         {
             "before": ["b"],
             "after": ["leader","b"]
+        },
+        // S-yを行末までのヤンクにする
+        {
+            "before": ["Y"],
+            "after" : ["y", "$"]
         }
     ],
     "vim.hlsearch": true,

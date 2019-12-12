@@ -38,3 +38,6 @@ set scrolloff=5
 nnoremap w [w
 nnoremap e ]w
 nnoremap b [b
+
+" カーソル位置から行末までヤンクする
+nnoremap Y y$
