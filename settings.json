@@ -31,5 +31,6 @@
     "workbench.colorTheme": "Quiet Light",
     "editor.scrollBeyondLastLine": false,
     "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "'Mylica M',Menlo, Monaco, 'Courier New', monospace",
 }
