@@ -33,4 +33,7 @@
     "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "'Mylica M',Menlo, Monaco, 'Courier New', monospace",
+    "[diagram]": {
+        "editor.acceptSuggestionOnEnter": "off",
+    },
 }
