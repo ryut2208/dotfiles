@@ -57,6 +57,9 @@ source ~/git-completion.bash
 # bash起動時にIMEをオフにする
 osascript -e 'tell application "System Events" to key code 102'
 
+# java_home省略
+alias java_home='/usr/libexec/java_home'
+
 # ImageMagickで画像を生成する
 function mkImage() {
 	if [ $# -eq 0 ]; then
@@ -77,3 +80,4 @@ function mkImage() {
 	fi
 }
 alias mkimage=mkImage
+export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
