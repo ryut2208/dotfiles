@@ -21,6 +21,7 @@ alias diff='diff -drBw'
 # bashrcを編集する
 alias bashrc='vim ~/.bashrc && source ~/.bashrc'
 alias bashrc_adb='vim ~/.bashrc_adb_aliases && source ~/.bashrc'
+alias ideavimrc='vim ~/.ideavimrc'
 # gitconfig.aliasを編集する
 alias gitalias='vim ~/.gitconfig.alias'
 # bash_profileを編集する
