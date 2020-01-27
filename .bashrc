@@ -7,10 +7,6 @@ alias h='history'
 alias hg='history | grep'
 # phpサーバーを起動する
 alias runphp='php -S localhost:8080'
-# asciidocのコンパイル
-alias adoc='asciidoctor -r asciidoctor-pdf -b pdf'
-alias adocPDF='asciidoctor -r asciidoctor-pdf -b pdf'
-alias adocHTML='asciidoctor'
 # lsの拡張
 alias ls='ls -FG'
 alias ll='ls -al'
