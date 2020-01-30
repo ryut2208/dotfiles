@@ -30,9 +30,17 @@
     "vim.camelCaseMotion.enable": true,
     "workbench.colorTheme": "Quiet Light",
     "editor.scrollBeyondLastLine": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
     "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "boundary",
+    "files.insertFinalNewline": true,
+    "workbench.startupEditor": "newUntitledFile",
     "editor.fontFamily": "'Mylica M',Menlo, Monaco, 'Courier New', monospace",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
     "[diagram]": {
         "editor.acceptSuggestionOnEnter": "off",
     },
