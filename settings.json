@@ -36,4 +36,6 @@
     "[diagram]": {
         "editor.acceptSuggestionOnEnter": "off",
     },
+    "asciidoc.preview.scrollEditorWithPreview": false,
+    "asciidoc.preview.scrollPreviewWithEditor": false
 }
