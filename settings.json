@@ -33,7 +33,6 @@
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "boundary",
     "files.insertFinalNewline": true,
     "workbench.startupEditor": "newUntitledFile",
