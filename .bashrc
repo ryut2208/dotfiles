@@ -7,9 +7,13 @@ alias h='history'
 alias hg='history | grep'
 # phpサーバーを起動する
 alias runphp='php -S localhost:8080'
-# lsの拡張
-alias ls='ls -FG'
-alias ll='ls -al'
+# lsの拡張(exaに変更)
+alias ls='exa -FG'
+alias ll='exa -al'
+# catをbatに変更
+alias cat='bat'
+# grepをripgrepに変更
+alias grep='rg'
 # sourceの短縮
 alias src='source'
 # diffを良い感じにする
