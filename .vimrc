@@ -35,6 +35,9 @@ map <silent> b <Plug>CamelCaseMotion_b
 map <silent> e <Plug>CamelCaseMotion_e
 " yankの仕様をs-dとs-cに合わせる
 nnoremap Y y$
+" numberとrelativenumberの切り替え
+nnoremap <F3> :<C-u>setlocal relativenumber!<CR>
+
 " カーソルを縦棒に変更する
 if has('vim_starting')
   " 挿入モード時に非点滅の縦棒タイプのカーソル
