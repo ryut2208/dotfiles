@@ -22,3 +22,11 @@ C:\Users\%USERNAME%\AppData\Roaming\Code\User
 ```
 $HOME/Library/Application\ Support/Code/User/settings.json
 ```
+
+## .gitconfig.aliasの利用方法
+.gitconfigに以下を追加
+```
+[include]
+	path = .gitconfig.alias
+```
+
