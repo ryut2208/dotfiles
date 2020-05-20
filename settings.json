@@ -28,7 +28,7 @@
     "vim.hlsearch": true,
     "vim.useSystemClipboard": true,
     "vim.camelCaseMotion.enable": true,
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Solarized Light+",
     "editor.scrollBeyondLastLine": false,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
