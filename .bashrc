@@ -82,6 +82,4 @@ function mkImage() {
 }
 alias mkimage=mkImage
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
-# viモードにする
-set -o vi
 
