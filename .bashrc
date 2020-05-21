@@ -82,4 +82,6 @@ function mkImage() {
 }
 alias mkimage=mkImage
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
+# デフォルト export PS1="\h:\W \u$ "
+export PS1="\t \u:\W \$ "
 
