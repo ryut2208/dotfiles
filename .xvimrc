@@ -1,0 +1,24 @@
+" jjでインサートモードを抜ける
+imap <silent> jj <Esc>
+inoremap jj <ESC>
+
+" ハイライトサーチ
+set hlsearch
+
+" 大文字小文字を区別しない
+set ignorecase
+
+" 検索をループしない
+set nowrapscan
+
+" クリップボード共通化
+set clipboard=unnamed,autoselect
+
+" 上下にスクロールの余裕を持たせる
+set scrolloff=5
+
+" 検索したときに中心に来るようにする
+nmap n nzz
+nmap N Nzz
+nmap * * zz
+nmap # #zz
