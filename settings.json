@@ -1,28 +1,69 @@
 {
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j","j"],
-            "after": ["<Esc>"]
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<C-f>"
+            ],
+            "after": [
+                "right"
+            ]
+        },
+        {
+            "before": [
+                "<C-b>"
+            ],
+            "after": [
+                "left"
+            ]
         }
     ],
-    "vim.normalModeKeyBindings":[
+    "vim.normalModeKeyBindings": [
         // CamelCaseMotion用の設定
         {
-            "before": ["w"],
-            "after": ["leader","w"]
+            "before": [
+                "w"
+            ],
+            "after": [
+                "leader",
+                "w"
+            ]
         },
         {
-            "before": ["e"],
-            "after": ["leader","e"]
+            "before": [
+                "e"
+            ],
+            "after": [
+                "leader",
+                "e"
+            ]
         },
         {
-            "before": ["b"],
-            "after": ["leader","b"]
+            "before": [
+                "b"
+            ],
+            "after": [
+                "leader",
+                "b"
+            ]
         },
         // S-yを行末までのヤンクにする
         {
-            "before": ["Y"],
-            "after" : ["y", "$"]
+            "before": [
+                "Y"
+            ],
+            "after": [
+                "y",
+                "$"
+            ]
         }
     ],
     "vim.hlsearch": true,
