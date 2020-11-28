@@ -30,27 +30,29 @@
     "vim.camelCaseMotion.enable": true,
     "workbench.colorTheme": "Solarized Light+",
     "editor.scrollBeyondLastLine": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
     "files.insertFinalNewline": true,
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontFamily": "'Migu 1M', 'Ricty Diminished', 'Myrica M',Menlo, Monaco, 'Courier New', monospace",
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[diagram]": {
-        "editor.acceptSuggestionOnEnter": "off",
-    },
     "asciidoc.preview.scrollEditorWithPreview": false,
     "asciidoc.preview.scrollPreviewWithEditor": false,
-    "[asciidoc]": {
-        "editor.autoClosingQuotes": "never"
-    },
     "markdown.preview.scrollEditorWithPreview": false,
     "markdown.preview.scrollPreviewWithEditor": false,
     "editor.fontSize": 14,
     "editor.renderWhitespace": "selection",
     "terminal.integrated.fontSize": 14,
     "files.autoGuessEncoding": true,
+    "window.zoomLevel": 0,
+    // 言語ごとの設定
+    "[asciidoc]": {
+        "editor.autoClosingQuotes": "never"
+    },
+    "[diagram]": {
+        "editor.acceptSuggestionOnEnter": "off",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
 }
