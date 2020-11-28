@@ -46,11 +46,20 @@
     "[asciidoc]": {
         "editor.autoClosingQuotes": "never"
     },
+    "[dart]": {
+        "editor.formatOnSave": true,
+    },
     "[diagram]": {
         "editor.acceptSuggestionOnEnter": "off",
     },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": true,
     },
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
