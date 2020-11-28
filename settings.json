@@ -41,6 +41,8 @@
     "editor.renderWhitespace": "selection",
     "terminal.integrated.fontSize": 14,
     "files.autoGuessEncoding": true,
+    "update.showReleaseNotes": false,
+    "editor.lineNumbers": "relative",
     "window.zoomLevel": 0,
     // 言語ごとの設定
     "[asciidoc]": {
