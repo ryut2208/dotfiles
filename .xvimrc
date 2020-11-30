@@ -22,3 +22,6 @@ nmap n nzz
 nmap N Nzz
 nmap * * zz
 nmap # #zz
+
+" 行の移動後に画面の中央にする
+nmap G Gzz
