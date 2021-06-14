@@ -15,7 +15,8 @@ set nowrapscan
 set clipboard=unnamed,autoselect
 
 " 上下にスクロールの余裕を持たせる
-set scrolloff=5
+set scrolloff=10
+
 
 " 検索したときに中心に来るようにする
 nmap n nzz

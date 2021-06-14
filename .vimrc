@@ -22,7 +22,7 @@ nmap # #zz
 " 行の移動後に画面の中央にする
 nmap G Gzz
 " 上下にスクロールの余裕を持たせる
-set scrolloff=5
+set scrolloff=10
 " 外部で編集された時に自動的に読み込むようにする
 set autoread
 " vi互換をオフにする(カーソルキーでABCDが入力されないように)
